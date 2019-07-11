@@ -143,7 +143,7 @@ html {
 /*    margin-right: 20px;*/
 /*}*/
 
-.skill {
+.tag {
     display: inline-block;
     margin: 4px 2px;
     padding: 3px 12px;
@@ -155,14 +155,34 @@ html {
     color: black;
 }
 
-.skill:hover {
+.tag:hover {
     background-color: #808080;
     color: white;
 }
 
-.skill.active {
+.tag.active {
     background-color: #b3a369;
     color: white;
+}
+
+.tag::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 9px;
+    font-weight: 900;
+    /*color: #b3a369;*/
+    display: block;
+}
+
+.tag.confidence-1::after {
+    content: "\f005";
+}
+
+.tag.confidence-2::after {
+    content: "\f005 \f005";
+}
+
+.tag.confidence-3::after {
+    content: "\f005 \f005 \f005";
 }
 
 .container {
@@ -172,18 +192,46 @@ html {
 }
 
 section {
-    padding-top: 70px;
+    /*padding-top: 70px;*/
     padding-bottom: 70px;
 }
 
 .icon {
     font-size: 20px;
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
     color: #b3a369;
+    min-width: 30px;
+    text-align: center;
 }
 
 p {
     font-size: 17px;
     margin-bottom: 5px;
+}
+
+.resume-item {
+    margin-bottom: 35px;
+}
+
+.tags {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.meta-data {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.courses .section-subtitle {
+    color: #b3a369;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.courses p {
+    margin-bottom: 0;
 }

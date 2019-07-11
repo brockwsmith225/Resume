@@ -1,8 +1,8 @@
-$(".skill").click(function(){
+$(".tag").click(function(){
     if ($(this).hasClass("active")) {
         $(this).removeClass("active");
         tag = $(this).html();
-        $(".skill").each(function() {
+        $(".tag").each(function() {
             if (tag == $(this).html()) {
                 $(this).removeClass("active");
             }
@@ -11,7 +11,7 @@ $(".skill").click(function(){
         $(this).addClass("active");
         tag = $(this).html();
         console.log(tag)
-        $(".skill").each(function() {
+        $(".tag").each(function() {
             if (tag == $(this).html()) {
                 $(this).addClass("active");
             }
