@@ -43,13 +43,6 @@ html {
     padding-left: 10px;
 }
 
-section:not(#skills) .content {
-    flex-direction: column;
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .overflow {
     display: block;
     height: calc(100vh - 157px);
