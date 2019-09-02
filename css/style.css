@@ -121,6 +121,15 @@ html {
     margin-top: 300px;
 }
 
+#skills-message {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h6 {
+    font-style: italic;
+}
+
 /*#skills {*/
 /*     height: 100vh;*/
 /*     position: fixed;*/
@@ -234,4 +243,27 @@ p {
 
 .courses p {
     margin-bottom: 0;
+}
+
+button {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 3px 12px;
+    background-color: #e5e5e5;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    box-shadow: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #808080;
+    color: white;
+}
+
+button:focus {
+    outline: none;
 }

@@ -2,7 +2,6 @@ activeTags = [];
 
 $(".tag").click(function(){
     if ($(this).hasClass("active")) {
-        ;
         $(this).removeClass("active");
         tag = $(this).html();
         activeTags.splice(activeTags.indexOf(tag), 1);
@@ -54,4 +53,10 @@ $(".tag").click(function(){
             }
         });
     }
+});
+
+$(".clear-skills").click(function() {
+    $(".tag").removeClass("active");
+    activeTags = [];
+    $(".resume-item").show();
 });
