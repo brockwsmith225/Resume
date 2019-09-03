@@ -182,6 +182,10 @@ h6 {
     display: block;
 }
 
+.confidence-1,
+.confidence-2 {
+}
+
 .tag.confidence-1::after {
     content: "\f005";
 }
