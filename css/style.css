@@ -271,3 +271,22 @@ button:hover {
 button:focus {
     outline: none;
 }
+
+.italics {
+    font-style: italic;
+}
+
+.open-in-new-tab {
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    margin-top: 8px;
+}
+
+a {
+    color: #212529;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #b3a369;
+}
