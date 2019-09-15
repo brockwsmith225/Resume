@@ -290,3 +290,12 @@ a {
 a:hover {
     color: #b3a369;
 }
+
+/*a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 65%;
+    vertical-align: middle;
+    text-decoration: none;
+    content: " \f35d";
+}*/
