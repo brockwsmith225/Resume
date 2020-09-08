@@ -130,6 +130,11 @@ h6 {
     font-style: italic;
 }
 
+.footnote {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
 /*#skills {*/
 /*     height: 100vh;*/
 /*     position: fixed;*/
